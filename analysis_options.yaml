@@ -1,6 +1,23 @@
 include: package:flutter_lints/flutter.yaml
 
 dart_code_metrics:
+  metrics:
+    cyclomatic-complexity: 20
+    maintainability-index: 50
+    maximum-nesting-level: 5
+    number-of-parameters: 4
+    source-lines-of-code: 50
+    technical-debt:
+      threshold: 1
+      todo-cost: 4
+      ignore-cost: 8
+      ignore-for-file-cost: 16
+      as-dynamic-cost: 16
+      deprecated-annotations-cost: 2
+      file-nullsafety-migration-cost: 2
+      unit-type: "hours"
+    number-of-methods: 10
+    weight-of-class: 0.33
   rules:
     - avoid-unnecessary-type-assertions
     - no-equal-arguments
