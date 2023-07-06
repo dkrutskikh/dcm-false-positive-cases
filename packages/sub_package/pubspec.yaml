@@ -1,0 +1,17 @@
+name: sub_package
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  dio: ^5.0.0
+  json_annotation: ^4.8.1
+  meta: ^1.8.0
+
+dev_dependencies:
+  build_runner: ^2.3.0
+  json_serializable: ^6.5.0
+  mocktail: ^0.3.0
+  test: ^1.16.0
