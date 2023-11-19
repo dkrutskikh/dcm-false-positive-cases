@@ -21,3 +21,4 @@ dart_code_metrics:
   rules:
     - avoid-unnecessary-type-assertions
     - no-equal-arguments
+    - avoid-inferrable-type-arguments
