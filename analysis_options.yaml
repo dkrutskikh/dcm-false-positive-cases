@@ -24,3 +24,5 @@ dart_code_metrics:
     - avoid-collection-methods-with-unrelated-types
     - avoid-inferrable-type-arguments
     - avoid-misused-test-matchers
+    - prefer-early-return
+    
